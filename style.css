@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates|Source+Sans+Pro&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+/* Previous color: e8491d --> orange */
+
+html {
+
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	/*font: 15px/1.5 Arial, Helvetica, sans-serif;*/
+	padding: 0;
+	/*margin: 0;*/
+	margin: 0 0 40px 0;
+	background-color: #f4f4f4;
+	font-family: Muli, sans-serif;
+	/*height: 100%;*/
+}
+
+/* Global */
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Header */
+header {
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 20px;
+	min-height: 80px;
+	border-bottom: #e8491d 3px solid;
+	margin-bottom: 50px;
+}
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: left;
+
+}
+
+header #branding h1 {
+	margin: 0;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header nav {
+	float: right;
+	margin-top: 10px;
+
+}
+
+
+header .highlight, header .current a {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #cccccc;
+	/*font-weight: bold;*/
+}
+
+/*header .login-border {
+	border: #82ff82 1px solid;
+	padding: 4px;
+}*/
+
+
+/* Boxes */
+.boxes {
+	margin-top: 40px;
+}
+
+.boxes .box {
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+	margin: 25px;
+	border: #e8491d 3px solid;
+	color: black;
+}
+
+.boxes .box img {
+	width: 110px;
+}
+
+.boxes .box:hover {
+	background-color: #e6e6e6;
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Footer */
+footer {
+	height: 50px;
+	/*position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;*/
+}
+
+
+/* LOGIN PAGE */
+.page-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.login-form-container {
+	width: 40%;
+	margin: 0 auto; 
+	padding: 30px;
+	border: #e8491d 2px solid;
+}
+
+
+/* REGISTER PAGE */
+.register-form-container {
+	width: 50%;
+	margin: 0 auto; 
+}
+
+
+/* STEP BY STEP PAGE */
+.content {
+	max-width:75%;
+}
